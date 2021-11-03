@@ -10,16 +10,16 @@ variable "project" {
 }
 
 variable "prefix" {
-  description = "This prefix will be included in the name of some resources. You can use your own name or any other short string here."
+  description = "gulmira"
 }
 
 variable "region" {
-  description = "The region where the resources are created."
+  description = "europe-west2"
   default     = "us-central1"
 }
 
 variable "zone" {
-  description = "The zone where the resources are created."
+  description = "europe-west2-a"
   default     = "us-central1-b"
 }
 
